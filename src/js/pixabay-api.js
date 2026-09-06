@@ -3,7 +3,7 @@ import axios from 'axios';
 axios.defaults.baseURL = 'https://pixabay.com/api/';
 
 // Get your own free key at https://pixabay.com/api/docs/ and paste it below.
-const API_KEY = '51590365-your_own_key_goes_here';
+const API_KEY = '57451796-7753b2a5b705356fd4c9945a0';
 
 /**
  * Performs an HTTP request to the Pixabay API and returns the response data.
