@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/goit-js-hw-11/"
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist"
   },
@@ -16,7 +16,11 @@
   },
   "devDependencies": {
     "gh-pages": "^6.2.0",
+    "glob": "^13.0.6",
+    "postcss-sort-media-queries": "^6.7.1",
     "prettier": "^3.4.2",
-    "vite": "^5.4.11"
+    "vite": "^5.4.11",
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
   }
 }
